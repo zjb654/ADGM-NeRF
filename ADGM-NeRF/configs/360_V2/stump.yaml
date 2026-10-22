@@ -1,0 +1,18 @@
+depth:
+  type: None
+pose:
+  learn_pose: True
+rendering:
+  depth_range: [0.0, 1.0]
+  dist_alpha: True
+  sample_option: ndc
+dataloading:
+  path: data/360_V2
+  scene: ['stump']
+  random_ref: 1
+  resize_factor: 4
+training:
+  out_dir: out/360_V2/stump
+  vis_resolution: [206, 311]
+extract_images:
+  resolution: [825, 1245]

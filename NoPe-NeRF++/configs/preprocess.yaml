@@ -1,0 +1,9 @@
+depth:
+  type: DPT
+dataloading:
+  path: data/co3d
+  scene: ['377_43803_87170']
+  resize_factor: 
+  load_colmap_poses: False
+training:
+  mode: 'all'

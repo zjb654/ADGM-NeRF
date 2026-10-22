@@ -1,0 +1,18 @@
+depth:
+  type: None
+pose:
+  learn_pose: True
+rendering:
+  depth_range: [0.0, 1.0]
+  dist_alpha: True
+  sample_option: ndc
+dataloading:
+  path: data/nerf_llff_data
+  scene: ['ball']
+  random_ref: 1
+  resize_factor: 1
+training:
+  out_dir:  out/llff/ball
+  vis_resolution: [75, 100]
+extract_images:
+  resolution: [776, 439]

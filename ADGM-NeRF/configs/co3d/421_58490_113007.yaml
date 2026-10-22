@@ -1,0 +1,18 @@
+depth:
+  type: None
+pose:
+  learn_pose: True
+rendering:
+  depth_range: [0.0, 1.0]
+  dist_alpha: True
+  sample_option: ndc
+dataloading:
+  path: data/co3d
+  scene: ['421_58490_113007']
+  random_ref: 1
+  resize_factor: 4
+training:
+  out_dir:  out/co3d/421_58490_113007
+  vis_resolution: [75, 100]
+extract_images:
+  resolution: [342, 623]

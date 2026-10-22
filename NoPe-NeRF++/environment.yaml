@@ -1,0 +1,42 @@
+name: nope-nerf
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - torchaudio 
+  - cudatoolkit=11.8
+  - cffi
+  - cython
+  - imageio
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - tensorboard
+  - yaml
+  - pillow
+  - wheel
+  - pip
+  - tqdm
+  - pip:
+    - ipdb
+    - ipython
+    - ipython-genutils
+    - jedi
+    - opencv-python
+    - scikit-image
+    - pyyaml
+    - trimesh
+    - imageio
+    - matplotlib
+    - plyfile
+    - timm
+    - lpips
+    - setuptools
+    - kornia==0.5.0
+    - imageio-ffmpeg
