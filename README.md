@@ -46,11 +46,8 @@ The same environment also works for the `NoPe-NeRF++/` reproduction.
 
 ## Data
 
-- **LLFF** and **CO3D V2**: please download from the official sources and
-  follow the preprocessing scripts of
-  [NoPe-NeRF](https://github.com/ActiveVisionLab/nope-nerf).
-- **Self-collected low-texture dataset** (bottle, flange, handwheel, ross)
-  and the pre-trained checkpoints used to produce the reported results are
+  **LLFF**, **CO3D V2** and **Self-collected low-texture dataset** (flange, handwheel, ross)
+  and the model of NoPe-NeRF++ used to produce the reported results are
   hosted on Figshare:
 
   **https://figshare.com/articles/dataset/ADGM-NeRF/32566935**
