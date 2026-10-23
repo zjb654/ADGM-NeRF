@@ -46,8 +46,8 @@ The same environment also works for the `NoPe-NeRF++/` reproduction.
 
 ## Data
 
-  **LLFF**, **CO3D V2** and **Self-collected low-texture dataset** (flange, handwheel, ross)
-  and the model of NoPe-NeRF++ used to produce the reported results are
+  **LLFF**, **CO3D V2**, **Self-collected low-texture dataset** (flange, handwheel, ross)
+  and the model in NoPe-NeRF++ used to produce the reported results are
   hosted on Figshare:
 
   **https://figshare.com/articles/dataset/ADGM-NeRF/32566935**
